@@ -1,4 +1,4 @@
-# England Spatial Map
+# UK Countries Map
 
 > **Historical portfolio artifact:** this repository preserves the rendered R Markdown report. The standalone source file is not included.
 
