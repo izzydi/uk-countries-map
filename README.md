@@ -2,7 +2,7 @@
 
 > **Historical portfolio artifact:** this repository preserves the rendered R Markdown report. The standalone source file is not included.
 
-**[▶ View the rendered report](https://raw.githack.com/izzydi/england-geospatial-mapping/main/england_spatial_map.html)**
+**[▶ View the rendered report](https://raw.githack.com/izzydi/uk-countries-map/main/england_spatial_map.html)**
 
 A map-making exercise in R with `ggplot2`, using GADM 2.8 administrative boundaries for the United Kingdom. The report builds the map step by step: plain outline, country names, borders and a final map of the four countries.
 
