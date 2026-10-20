@@ -1,21 +1,18 @@
 # England Spatial Map
 
-> **Historical portfolio artifact:** this repository preserves the rendered map/output; the original executable source is not currently available here.
+> **Historical portfolio artifact:** this repository preserves the rendered R Markdown report. The standalone source file is not included.
 
-A geospatial data-visualization project focused on mapping England and presenting the resulting analysis as a rendered HTML document.
+**[▶ View the rendered report](https://raw.githack.com/izzydi/england-geospatial-mapping/main/england_spatial_map.html)**
+
+A map-making exercise in R with `ggplot2`, using GADM 2.8 administrative boundaries for the United Kingdom. The report builds the map step by step: plain outline, country names, borders and a final map of the four countries.
+
+![Map of the four countries of the United Kingdom](figures/uk_countries_map.png)
 
 ## Repository contents
 
-- [`england_spatial_map.html`](england_spatial_map.html) — rendered map and analysis output.
-
-## Project focus
-
-This repository showcases spatial-data visualization and map-based presentation. The original rendered report is preserved as the main project artifact.
-
-## Viewing the project
-
-Download `england_spatial_map.html` and open it in a modern web browser. GitHub does not execute embedded HTML visualizations directly in the repository view, so local viewing or an HTML preview service gives the best result.
+- [`england_spatial_map.html`](england_spatial_map.html) — rendered report with code and maps.
+- [`figures/`](figures/) — map exported unchanged from the report.
 
 ## Reproducibility note
 
-Only the rendered HTML output is currently stored in the repository; the original source script or notebook is not present. The repository therefore serves primarily as a portfolio artifact of the completed spatial analysis.
+The R code is shown inside the rendered report, but the standalone R Markdown file is not in the repository. The report downloads the boundaries from the GADM 2.8 archive.
